@@ -18,13 +18,13 @@ pipeline {
 		}
 	} post {
 		always {
-			echo 'Im awseome. I run always'
+			echo "Im awseome. I run always"
 		}
 		success {
-			echo 'I run where when you are successful'
+			echo "I run where when you aresuccessful"
 		}
 		failure {
-			echo 'I run when you fail'
+			echo "I run when you fail"
 		}
 	}
 	
